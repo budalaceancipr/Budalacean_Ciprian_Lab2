@@ -16,5 +16,7 @@ namespace Budalacean_Ciprian_Lab2.Data
 
         public DbSet<Budalacean_Ciprian_Lab2.Models.Book> Book { get; set; } = default!;
         public DbSet<Budalacean_Ciprian_Lab2.Models.Publisher> Publisher { get; set; } = default!;
+        public DbSet<Budalacean_Ciprian_Lab2.Models.BookCategory> BookCategory { get; set; } = default!;
+        public DbSet<Budalacean_Ciprian_Lab2.Models.Category> Category { get; set; } = default!;
     }
 }
